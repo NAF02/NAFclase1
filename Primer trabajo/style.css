@@ -1,0 +1,42 @@
+html, body {
+    font-family:Helvetica,Arial,sans-serif;
+    margin: 0;
+  padding: 0;
+    background:rgb(250,221,200)
+}
+canvas {
+  display: block;
+}
+
+nav{
+    padding:1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a#shiory{
+  font-weight:bold;
+  
+  background:black;
+  color:white;
+   position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+    box-shadow: 2px 4px 25px white;
+    padding:1rem 2rem;
+    border-radius: 60px
+}
+
+
+
+a#shiory:hover{
+    background:lightorange;
+    color:black;
+    transition:all ease 1s;
+    top:50.5%;
+    box-shadow: 1px 6px 10px darkorange;
+    
+}
